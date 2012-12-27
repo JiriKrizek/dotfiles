@@ -1,0 +1,29 @@
+# Python
+alias pip='pip-python'
+
+# unrar
+alias unrar='unrar x'
+
+alias lt="ls -tr"
+alias c="cd /mnt/r/Downloads/completed"
+alias lcom='ls -lht |grep `date "+%Y-%m-%d"`|tac |tail'
+
+alias lt="ls -tr"
+alias c="cd /mnt/r/Downloads/completed"
+alias lcom='ls -lht |grep `date "+%Y-%m-%d"`|tac |tail'
+
+alias gc='git commit -v'
+alias ga='git add'
+alias gp='git push'
+alias gs='git status'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gma='git commit --amend -m'
+alias gb='git branch'
+alias gco='git checkout'
+alias gcl='git clone'
+
+alias cp='nocorrect cp'            # don't correct spelling for 'cp'
+alias mkdir='nocorrect mkdir'      # don't correct spelling for 'mkdir'
+alias mv='nocorrect mv'            # don't correct spelling for 'mv'
+

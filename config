@@ -1,0 +1,6 @@
+# Zsh configuration
+
+export EDITOR=vim
+
+plugins=(git rails ruby github yum dircycle)
+
