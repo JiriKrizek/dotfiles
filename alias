@@ -6,11 +6,7 @@ alias unrar='unrar x'
 
 alias lt="ls -tr"
 alias c="cd /mnt/r/Downloads/completed"
-alias lcom='ls -lht |grep `date "+%Y-%m-%d"`|tac |tail'
-
-alias lt="ls -tr"
-alias c="cd /mnt/r/Downloads/completed"
-alias lcom='ls -lht |grep `date "+%Y-%m-%d"`|tac |tail'
+alias lcom='ls -trl --time-style="+%Y-%m-%d %H:%M" |grep `date "+%Y-%m-%d"`|tac |tail'
 
 alias gc='git commit -v'
 alias ga='git add'
