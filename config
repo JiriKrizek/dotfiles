@@ -5,3 +5,5 @@ export EDITOR=vim
 
 plugins=(git rails ruby github yum dircycle)
 
+export GEM_EDITOR='vim'
+export EDITOR='vim'
