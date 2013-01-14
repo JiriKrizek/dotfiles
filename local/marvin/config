@@ -1,0 +1,12 @@
+export W=`week.sh`
+
+export PTH_W="$W"
+export PTH_FTP="/mnt/r/ftp"
+export PTH_FTP_SERIALY="/mnt/r/ftp/Serialy"
+export PTH_FTP_FILMY="/mnt/r/ftp/Filmy"
+export PTH_FTP_UPLOAD="/mnt/r/ftp/\!UPLOAD"
+export PTH_TORR="/mnt/r/torrents"
+
+export GEM_EDITOR='vim'
+export EDITOR='vim'
+
