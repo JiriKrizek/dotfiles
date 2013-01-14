@@ -6,6 +6,7 @@ export PTH_FTP_SERIALY="/mnt/r/ftp/Serialy"
 export PTH_FTP_FILMY="/mnt/r/ftp/Filmy"
 export PTH_FTP_UPLOAD="/mnt/r/ftp/\!UPLOAD"
 export PTH_TORR="/mnt/r/torrents"
+export PTH_XBMC="/mnt/r/xbmc"
 
 export GEM_EDITOR='vim'
 export EDITOR='vim'
