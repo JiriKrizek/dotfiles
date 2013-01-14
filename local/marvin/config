@@ -11,3 +11,9 @@ export PTH_XBMC="/mnt/r/xbmc"
 export GEM_EDITOR='vim'
 export EDITOR='vim'
 
+eval "$(rbenv init -)"
+
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.rbenv/bin
+export LD_LIBRARY_PATH="/usr/local/lib"
+
