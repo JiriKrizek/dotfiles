@@ -1,0 +1,14 @@
+[user]
+  name = JiriKrizek
+  email = jkrizek@gmail.com
+[color]
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+
+[http]
+  sslverify = true
+
+[alias]
+  ci = commit

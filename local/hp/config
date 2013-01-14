@@ -1,3 +1,8 @@
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.rbenv/bin
+export PATH=$PATH:/usr/lib64/ccache
+export PATH=$PATH:/usr/local/texlive/2012/bin/x86_64-linux
+
 export W=`week.sh`
 
 export PTH_W="$W"
@@ -8,14 +13,7 @@ export PTH_FTP_UPLOAD="/mnt/r/ftp/\!UPLOAD"
 export PTH_TORR="/mnt/r/torrents"
 export PTH_XBMC="/mnt/r/xbmc"
 
-export GEM_EDITOR='vim'
-export EDITOR='vim'
-
 ZSH_THEME="afowler"
-
-plugins=(git rails ruby github yum dircycle)
-
-export PATH=/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/jedjisch/.local/bin:/home/jedjisch/bin:/home/jedjisch/.rbenv/bin:/usr/local/texlive/2012/bin/x86_64-linux
 
 eval "$(rbenv init -)"
 
