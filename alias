@@ -1,6 +1,14 @@
 # Python
 alias pip='pip-python'
 
+# mkdir
+function mcd() {
+  mkdir -p "$1" && cd "$1";
+}
+
+#Get external ip
+alias ifconfig-ext='curl ifconfig.me'
+
 # unrar
 alias unrar='unrar x'
 
