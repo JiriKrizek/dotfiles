@@ -19,6 +19,7 @@ alias lt="ls -tr"
 alias c="cd /mnt/r/Downloads/completed"
 alias lcom='ls -trl --time-style="+%Y-%m-%d %H:%M" |grep `date "+%Y-%m-%d"`|tac |tail'
 
+alias glog='git log --all --graph --pretty="tformat:%C(yellow)%h%Cblue%d%Creset %s %C(red) %an, %ar%Creset"'
 alias gc='git commit -v'
 alias ga='git add'
 alias gp='git push'
