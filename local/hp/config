@@ -11,6 +11,7 @@ export PTH_FTP_FILMY="/mnt/r/ftp/Filmy"
 export PTH_FTP_UPLOAD="/mnt/r/ftp/\!UPLOAD"
 export PTH_TORR="/mnt/r/torrents"
 export PTH_XBMC="/mnt/r/xbmc"
+export PTH_DL="/mnt/r/Downloads/completed"
 
 ZSH_THEME="afowler"
 
