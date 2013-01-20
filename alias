@@ -12,13 +12,17 @@ alias ifconfig-ext='curl ifconfig.me'
 # unrar
 alias unrar='unrar x'
 
-alias go=gnome-open
+alias go='gnome-open'
 
-
+# LS
 alias lt="ls -tr"
+alias lt1="ls -tr1"
+alias lti="ls -tr1"
+
 alias c="cd /mnt/r/Downloads/completed"
 alias lcom='ls -trl --time-style="+%Y-%m-%d %H:%M" |grep `date "+%Y-%m-%d"`|tac |tail'
 
+# GIT
 alias glog='git log --all --graph --pretty="tformat:%C(yellow)%h%Cblue%d%Creset %s %C(red) %an, %ar%Creset"'
 alias gc='git commit -v'
 alias ga='git add'
