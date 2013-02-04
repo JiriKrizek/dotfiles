@@ -3,7 +3,7 @@
 ZSH_THEME="clean"
 export EDITOR=vim
 
-plugins=(git rails ruby github yum dircycle)
+plugins=(gitfast rails ruby github yum dircycle)
 
 export GEM_EDITOR='vim'
 export EDITOR='vim'
