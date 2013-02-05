@@ -3,7 +3,7 @@
 
 echo "Installing zshrc"
 if [[ ! -f ~/.zshrc ]]; then
-  ln ~/.dotfiles/.zshrc ~/.zshrc && echo "...finished"
+  ln ~/.dotfiles/zshrc ~/.zshrc && echo "...finished"
 else
   echo "...Error: ~/.zshrc already exists"
 fi
