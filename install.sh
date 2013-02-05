@@ -17,7 +17,7 @@ fi
 
 echo "Installing git config"
 if [[ ! -f ~/.gitconfig ]] ; then
-  ln ~/.dotfiles/.gitconfig ~/.gitconfig && echo "...finished"
+  ln ~/.dotfiles/gitconfig ~/.gitconfig && echo "...finished"
 else
   echo "...Error: ~/.gitconfig already exists"
 fi
