@@ -1,2 +1,2 @@
-if [ "$TMUX" = "" ]; then tmux attach; fi
+if [ "$TMUX" = "" ]; then tmux attach -d || tmux new; fi
 
