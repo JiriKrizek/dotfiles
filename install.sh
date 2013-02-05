@@ -22,3 +22,11 @@ else
   echo "...Error: ~/.gitconfig already exists"
 fi
 
+echo "Installing vimrc"
+if [[ ! -f ~/.vimrc ]] ; then
+  ln ~/.dotfiles/vimrc ~/.vimrc && echo "...finished"
+else
+  echo "...Error: ~/.vimrc already exists"
+fi
+
+
