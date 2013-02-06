@@ -14,6 +14,11 @@ alias unrar='unrar x'
 
 alias go='gnome-open'
 
+#Atool
+alias au="aunpack"
+alias ap="apack"
+alias al="als"
+
 # LS
 alias lt="ls -tr"
 alias lt1="ls -tr1"
