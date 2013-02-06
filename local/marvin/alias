@@ -1,3 +1,5 @@
 alias t='cd /mnt/r/torrents'
 alias r='cd /mnt/r'
 
+alias c="cd /mnt/r/Downloads/completed"
+

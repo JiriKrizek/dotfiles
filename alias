@@ -19,7 +19,6 @@ alias lt="ls -tr"
 alias lt1="ls -tr1"
 alias lti="ls -tr1"
 
-alias c="cd /mnt/r/Downloads/completed"
 alias lcom='ls -trl --time-style="+%Y-%m-%d %H:%M" |grep `date "+%Y-%m-%d"`'
 
 # GIT
