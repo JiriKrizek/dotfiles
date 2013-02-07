@@ -9,7 +9,8 @@ filetype plugin indent on
 
 set t_Co=256
 set background=dark
-"colorscheme Tomorrow-Night
+colorscheme Tomorrow-Night
+"colorscheme desert
 set guioptions-=T
 set guioptions-=m
 set guioptions-=r
