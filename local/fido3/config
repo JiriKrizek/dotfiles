@@ -4,16 +4,20 @@ export LD_LIBRARY_PATH="/usr/local/lib"
 setopt nocheckjobs          #don't warn about bg processes on exit
 setopt nohup                #don't kill bg processes on exit
 
-if [ "$TMUX" = "" ]; then tmux attach -d jedjisch && exit ; 
 
-  tmux new-session -s jedjisch -d
+if [ "$TMUX" = "" ]; then 
+  if [[ $(tmux list-sessions |wc -l) -ne 0 ]]; then
+    tmux attach -t jedjisch 
+  else
+    tmux new-session -s jedjisch -d
  
-  tmux new-window -t jedjisch:2 -n 'ICQ' 'finch'
-  tmux new-window -t jedjisch:3 -n 'ave' 'ssh -p 10022 ave'
-  tmux new-window -t jedjisch:4 -n 'jedjisch' 'ssh -p10022 jedjisch'
-  tmux new-window -t jedjisch:5 
+    tmux new-window -t jedjisch:2 -n 'ICQ' 'finch'
+    tmux new-window -t jedjisch:3 -n 'ave' 'ssh -p 10022 ave'
+    tmux new-window -t jedjisch:4 -n 'jedjisch' 'ssh -p10022 jedjisch'
+    tmux new-window -t jedjisch:5 
  
-  tmux select-window -t jedjisch:2
-  tmux swap-window -s 2 -t 1
-  tmux -2 attach-session -t jedjisch
+    tmux select-window -t jedjisch:2
+    tmux swap-window -s 2 -t 1
+    tmux -2 attach-session -t jedjisch
+  fi
 fi
