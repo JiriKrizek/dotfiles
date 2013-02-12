@@ -62,11 +62,11 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-"map <Left> <nop>
-"map <Right> <nop>
-"map <Up> <nop>
-"map <Down> <nop>
-"
+map <Left> <nop>
+map <Right> <nop>
+map <Up> <nop>
+map <Down> <nop>
+
 map Q <nop>
 map K <nop>
 
