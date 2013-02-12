@@ -2,7 +2,7 @@
 "
 "
 set nocompatible 
-"call pathogen#infect()
+call pathogen#infect()
 syntax on
 filetype plugin indent on
 "let g:ackprg="ack-grep -H --nocolor --nogroup --column"
