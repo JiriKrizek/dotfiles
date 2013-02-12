@@ -4,6 +4,9 @@ export LD_LIBRARY_PATH="/usr/local/lib"
 setopt nocheckjobs          #don't warn about bg processes on exit
 setopt nohup                #don't kill bg processes on exit
 
+eval "$(rbenv init -)"
+
+
 
 if [ "$TMUX" = "" ]; then 
   if [[ $(tmux list-sessions |wc -l) -ne 0 ]]; then
