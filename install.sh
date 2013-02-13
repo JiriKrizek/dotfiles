@@ -29,6 +29,12 @@ else
   echo "...Error: ~/.vimrc already exists"
 fi
 
+echo "Installing vim theme"
+if [[ ! -f ~/.vim/colors/Tomorrow-Night.vim ]] ; then
+  if [[ ! -d ~/.vim/colors ]] ; then mkdir ~/.vim/colors; fi
+  cp -v ~/.dotfiles/vim/colors/* ~/.vim/colors
+fi
+
 echo "Installing Pathogen"
 if [[ ! -f ~/.vim/autoload/pathogen.vim ]]; then
   mkdir -p ~/.vim/autoload ~/.vim/bundle; \
@@ -43,9 +49,15 @@ echo "Installing command-T"
 if [[ ! -d ~/.vim/command-t ]]; then
   cd ~/.vim
   git clone git://git.wincent.com/command-t.git bundle/command-t
+  echo "...git clone done, building c extension"
+  cd ~/.vim/bundle/command-t/ruby/command-t
+  ruby extconf.rb
+  make
   echo "...Done"
+  echo "please run   :call pathogen#helptags()  inside of vim"
 else
   echo "...Command-T already exists"
 fi
+
 
 
