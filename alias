@@ -39,6 +39,7 @@ alias gma='git commit --amend -m'
 alias gb='git branch'
 alias gco='git checkout'
 alias gcl='git clone'
+alias grma='git ls-files -z --deleted | xargs -0r git rm'
 
 alias cp='nocorrect cp'            # don't correct spelling for 'cp'
 alias mkdir='nocorrect mkdir'      # don't correct spelling for 'mkdir'
