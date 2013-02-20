@@ -46,7 +46,7 @@ else
 fi
 
 echo "Installing command-T"
-if [[ ! -d ~/.vim/command-t ]]; then
+if [[ ! -d ~/.vim/bundle/command-t ]]; then
   cd ~/.vim
   git clone git://git.wincent.com/command-t.git bundle/command-t
   echo "...git clone done, building c extension"
@@ -59,5 +59,12 @@ else
   echo "...Command-T already exists"
 fi
 
-
+echo "Installing syntastic"
+if [[ ! -d ~/.vim/bundle/syntastic ]]; then
+  cd ~/.vim/bundle
+  git clone https://github.com/scrooloose/syntastic.git
+  echo "...Done"
+else
+  echo "...Syntastic already installed"
+fi
 
