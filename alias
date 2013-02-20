@@ -32,7 +32,7 @@ alias glog='git log --all --graph --pretty="tformat:%C(yellow)%h%Cblue%d%Creset 
 alias gc='git commit -v'
 alias ga='git add'
 alias gp='git push'
-alias gs='git status'
+alias gs='git status -sb'
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gma='git commit --amend -m'
