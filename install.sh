@@ -68,3 +68,11 @@ else
   echo "...Syntastic already installed"
 fi
 
+echo "Installing git gutter"
+if [[ ! -d ~/.vim/bundle/vim-gitgutter ]]; then
+  cd ~/.vim/bundle
+  git clone git://github.com/airblade/vim-gitgutter.git
+  echo "...Done"
+else
+  echo "...Git gutter already installed"
+fi
