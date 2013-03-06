@@ -41,7 +41,13 @@ alias gco='git checkout'
 alias gcl='git clone'
 alias grma='git ls-files -z --deleted | xargs -0r git rm'
 
+# bundle
+alias be='bundle exec'
+alias ber='bundle exec ruby'
+
 alias cp='nocorrect cp'            # don't correct spelling for 'cp'
 alias mkdir='nocorrect mkdir'      # don't correct spelling for 'mkdir'
 alias mv='nocorrect mv'            # don't correct spelling for 'mv'
 
+alias rscp='rsync -aP'
+alias rsmv='rsync -aP --remove-source-files'
