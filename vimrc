@@ -62,10 +62,10 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-map <Left> <nop>
-map <Right> <nop>
-map <Up> <nop>
-map <Down> <nop>
+"map <Left> <nop>
+"map <Right> <nop>
+"map <Up> <nop>
+"map <Down> <nop>
 
 map Q <nop>
 map K <nop>
@@ -84,4 +84,4 @@ set winheight=5
 set winminheight=5
 set winheight=999
 
-au BufWritePre *.rb,*.css,*.scss,*.slim,*.js,*.coffee,*.yml :%s/\s\+$//e
+"au BufWritePre *.rb,*.css,*.scss,*.slim,*.js,*.coffee,*.yml :%s/\s\+$//e
