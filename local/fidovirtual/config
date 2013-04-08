@@ -1,4 +1,6 @@
 export PATH=$PATH:~/.rbenv/bin
+
+export PATH=$PATH:~/.rbenv/bin
 export LD_LIBRARY_PATH="/usr/local/lib"
 
 setopt nocheckjobs          #don't warn about bg processes on exit
