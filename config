@@ -8,4 +8,4 @@ plugins=(gitfast rails ruby github yum dircycle)
 export GEM_EDITOR='vim'
 export EDITOR='vim'
 
-PATH=$PATH:~/.local/bin
+PATH=~/.local/bin:$PATH
