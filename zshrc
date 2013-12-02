@@ -1,6 +1,7 @@
 #Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
+PT6HOME=/usr/local/PacketTracer6
 source ~/.dotfiles/config
 if [[ -f ~/.dotfiles/local/$(hostname)/config ]] ; then source ~/.dotfiles/local/$(hostname)/config ; fi
 

@@ -1,2 +1,4 @@
+alias vi=vim
 alias c="cd /mnt/r/Downloads/completed"
 alias cp="gcp"
+alias apt-get=apt-fast

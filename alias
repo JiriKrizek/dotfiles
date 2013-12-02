@@ -51,3 +51,7 @@ alias mv='nocorrect mv'            # don't correct spelling for 'mv'
 
 alias rscp='rsync -aP'
 alias rsmv='rsync -aP --remove-source-files'
+
+# tmux
+alias tma='tmux attach -d -t'
+alias git-tmux='tmux new -s $(basename $(pwd))'
