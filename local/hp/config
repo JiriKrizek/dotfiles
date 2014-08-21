@@ -2,9 +2,6 @@ export PATH=$PATH:~/.rbenv/bin
 export PATH=$PATH:/usr/lib64/ccache
 export PATH=$PATH:/usr/local/texlive/2012/bin/x86_64-linux
 
-export PEPPER_FLASH_VERSION=$(grep '"version":' /opt/google/chrome*/PepperFlash/manifest.json| grep -Po '(?<=version": ")(?:\d|\.)*')
-
-
 export QMAKE=/usr/bin/qmake-qt4
 export EDITOR=vi
 

@@ -1,5 +1,5 @@
 # Python
-alias pip='pip-python'
+#alias pip='pip-python'
 
 # mkdir
 function mcd() {
