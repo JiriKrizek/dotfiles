@@ -1,7 +1,6 @@
 # Zsh configuration
 
 ZSH_THEME="clean"
-export EDITOR=vim
 
 plugins=(gitfast rails ruby github yum dircycle)
 
