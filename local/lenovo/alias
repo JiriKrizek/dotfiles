@@ -1,4 +1,5 @@
 alias vi=vim
 alias c="cd /mnt/r/Downloads/completed"
+alias s="cd /mnt/nas/media/Serialy/"
 alias cp="gcp"
 alias cal="ncal -M -C"
