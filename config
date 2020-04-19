@@ -2,9 +2,10 @@
 
 ZSH_THEME="clean"
 
-plugins=(gitfast rails ruby github yum dircycle)
+plugins=(gitfast ruby github yum dircycle)
 
 export GEM_EDITOR='vim'
 export EDITOR='vim'
+export GOPATH=$HOME/go
 
-PATH=~/.local/bin:$PATH
+PATH=~/.local/bin:$GOPATH/bin:$PATH

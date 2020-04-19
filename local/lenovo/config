@@ -19,6 +19,6 @@ export PTH_DL="/mnt/r/Downloads/completed"
 
 ZSH_THEME="afowler"
 
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
 

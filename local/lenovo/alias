@@ -1,5 +1,10 @@
+alias mc=". /usr/lib/mc/mc-wrapper.sh"
 alias vi=vim
 alias c="cd /mnt/r/Downloads/completed"
+alias go='xdg-open'
+alias gnome-open='xdg-open'
 alias s="cd /mnt/nas/media/Serialy/"
 alias cp="gcp"
 alias cal="ncal -M -C"
+alias rename_gui="thunar"
+alias vlc=~/Apps/vlc-compiled/bin/vlc
